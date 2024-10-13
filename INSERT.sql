@@ -1,6 +1,6 @@
 /*Добавьте в этот файл запросы, которые наполняют данными таблицы в схеме автосалона*/
 INSERT INTO car_shop.auto (id, auto, gasoline_consumption, brand_origin, brand_name, model_name, color)
-SELECT 
+SELECT DISTINCT
 id,
 auto,
 gasoline_consumption,
